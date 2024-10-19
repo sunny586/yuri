@@ -4,13 +4,13 @@ import { chunkSplitPlugin } from 'vite-plugin-chunk-split'
 
 import { head, nav, sidebar } from './configs'
 
-const PROD_BASE = '/zack/'
+const PROD_BASE = '/yuri/'
 
 export default defineConfig({
   outDir: '../dist',
   base: process.env.NODE_ENV === 'production' ? PROD_BASE : '/',
   lang: 'zh-CN',
-  title: 'zacknote',
+  title: 'yurinote',
   description: 'sunny586的学习笔记',
   head,
   lastUpdated: true,
@@ -56,7 +56,7 @@ export default defineConfig({
     socialLinks: [{ icon: 'github', link: 'https://github.com/sunny586/vitepress-nav-template' }],
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
-      copyright: `Copyright © ${new Date().getFullYear()}-present zack`,
+      copyright: `Copyright © ${new Date().getFullYear()}-present yuri`,
     },
     lastUpdated: {
       text: '最后更新于',
@@ -76,10 +76,10 @@ export default defineConfig({
     darkModeSwitchTitle: '切换到深色模式',
     /*** 自定义配置 ***/
     visitor: {
-      badgeId: 'sunny586.zack',
+      badgeId: 'sunny586.yuri',
     },
     comment: {
-      repo: 'sunny586/zack',
+      repo: 'sunny586/yuri',
       repoId: 'R_kgDOMkRzkg',
       category: 'Announcements',
       categoryId: 'DIC_kwDOMkRzks4ChvEk',

@@ -1,5 +1,5 @@
 ---
-layoutClass: zack-nav-layout
+layoutClass: yuri-nav-layout
 outline: [2, 3, 4]
 ---
 

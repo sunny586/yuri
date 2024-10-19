@@ -51,7 +51,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </script>
 
 <template>
-  <Layout v-bind="$attrs" class="zack-app-layout">
+  <Layout v-bind="$attrs" class="yuri-app-layout">
     <!--
       相关插槽
       https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
@@ -86,7 +86,7 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
 </template>
 
 <style lang="scss" scoped>
-.zack-app-layout {
+.yuri-app-layout {
   :deep(.logo) {
     border-radius: 50%;
   }

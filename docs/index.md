@@ -1,9 +1,9 @@
 ---
 layout: home
-layoutClass: 'zack-home-layout'
+layoutClass: 'yuri-home-layout'
 
 hero:
-  name: zacknote
+  name: yurinote
   text: 探索前端世界的奥秘
   tagline: 一个前端工程师的成长之路
   image:
@@ -26,7 +26,7 @@ features:
 ---
 
 <style>
-.zack-home-layout .image-src {
+.yuri-home-layout .image-src {
   border-radius: 10px;
   width: 200px;
 }

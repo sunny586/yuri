@@ -16,7 +16,7 @@ function gitOperations(GITHUB_FOLDER) {
       .trim()
     if (statusOutput) {
       // 如果有未提交的更改，则创建提交信息并提交
-      const commitMessage = `update code zack ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`
+      const commitMessage = `update code yuri ${dayjs().format('YYYY-MM-DD HH:mm:ss')}`
       const output2 = execSync(`git commit -m "${commitMessage}"`, {
         cwd: GITHUB_FOLDER,
       }).toString()

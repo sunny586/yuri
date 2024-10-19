@@ -9,8 +9,8 @@ const path = require('path')
 const gitOperations = require('./git-operations.cjs')
 // 定义源文件夹路径，指向当前目录的上级目录中的dist文件夹
 const sourceFolder = path.resolve(__dirname, '../dist')
-// 定义目标文件夹路径，指向GitHub文件夹中的zack文件夹
-const targetFolder = `${GITHUB_FOLDER}/zack_dist`
+// 定义目标文件夹路径，指向GitHub文件夹中的yuri文件夹
+const targetFolder = `${GITHUB_FOLDER}/yuri_dist`
 
 async function run() {
   try {
