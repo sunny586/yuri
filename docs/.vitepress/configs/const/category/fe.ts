@@ -1,5 +1,5 @@
 export const FE = [
-  { text: '前端知识树', link: '/fe/' },
+  { text: '前端知识树', link: '/fe/前端环境搭建' },
   {
     text: '前端工程化',
     link: '/fe/工程化/',
